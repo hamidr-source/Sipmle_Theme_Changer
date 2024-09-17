@@ -1,4 +1,4 @@
-.theme button {
+.theme {
   position: absolute;
   top: 2vh;
   right: 5vw;
@@ -13,6 +13,11 @@
   transition: 0.5s;
 }
 
-.theme button:hover {
+.theme:hover {
     box-shadow: 0 10px 50px 10px #2e2e47b0;
+}
+
+.dark {
+    color: #2e2e47b0;
+    background-color: #fff;
 }
