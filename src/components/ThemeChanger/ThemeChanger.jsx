@@ -9,13 +9,12 @@ const ThemeChanger = () => {
 
   function hansleChangeBgColor (e) {
     setToggle(() => !toggle)
-    console.log(toggle)
   }
 
   return (
     <div>
-      <button className="theme" onClick={(e) => hansleChangeBgColor(e)}>
-        <i className="fa-solid fa-moon"></i>
+      <button className={toggle ? "theme dark" : "theme" } onClick={(e) => hansleChangeBgColor(e)}>
+        <i className={toggle ? "fa-solid fa-moon" : "fa-solid fa-sun"}></i>
       </button>
     </div>
   );
