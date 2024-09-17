@@ -5,9 +5,11 @@ const ThemeChanger = () => {
   function handleClickBgColor() {}
 
   return (
-    <button onClick={handleClickBgColor}>
-      <i className="fa-solid fa-sun"></i>
-    </button>
+    <div className="theme">
+      <button onClick={handleClickBgColor}>
+        <i className="fa-solid fa-sun"></i>
+      </button>
+    </div>
   );
 };
 

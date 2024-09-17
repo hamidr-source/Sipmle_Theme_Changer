@@ -1,14 +1,8 @@
-* {
+body {
+  height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
-}
-
-:root {
-  --bg-light-color: #fff;
-  --bg-dark-color: #393a3f00;
-}
-
-body {
-  color: var(--bg-dark-color);
-  background-color: var(--bg-light-color);
+  background-color: #fff;
+  color: #2e2e47b0;
 }
