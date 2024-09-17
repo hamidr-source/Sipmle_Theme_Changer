@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import ThemeChanger from "./components/ThemeChanger/ThemeChanger";
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <>
+      <ThemeChanger />
+    </>
   );
 }
 
